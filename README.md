@@ -309,6 +309,7 @@ const getFieldError = useCallback(
    ```
 
 3. **Run Database Migration**:
+
    ```sql
    -- Execute in Supabase SQL Editor
    ALTER TABLE public.leads DROP CONSTRAINT leads_email_key;
@@ -365,34 +366,7 @@ npm run build
 
 The lead capture form now works flawlessly with bulletproof duplicate prevention, reliable email delivery, and excellent user experience! 🎉
 
----
-
-## Original Project Info
-
-**URL**: https://lovable.dev/projects/94b52f1d-10a5-4e88-9a9c-5c12cf45d83a
-
-## How to Edit This Code
-
-**Use Lovable**: Simply visit the [Lovable Project](https://lovable.dev/projects/94b52f1d-10a5-4e88-9a9c-5c12cf45d83a) and start prompting.
-
-**Use Your Preferred IDE**: Clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-**Requirements**: Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-````sh
-# Clone the repository
-git clone <YOUR_GIT_URL>
-
-# Navigate to project directory
-cd <YOUR_PROJECT_NAME>
-
-# Install dependencies
-npm i
-
-# Start development server
-npm run dev
-
--------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
 
 # Welcome to your Lovable project
 
@@ -430,7 +404,7 @@ npm i
 
 # Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
-````
+```
 
 **Edit a file directly in GitHub**
 
@@ -467,9 +441,3 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
-#   F i v e r r _ L o v a b l e _ T e s t  
- "# Fiverr_Lovable_Test" 
-#   F i v e r r _ L o v a b l e _ T e s t  
- #   F i v e r r _ L o v a b l e _ T e s t  
- "# Fiverr_Lovable_Test" 
-"# Fiverr_Lovable_Test" 
