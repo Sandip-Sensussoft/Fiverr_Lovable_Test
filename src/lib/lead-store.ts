@@ -1,8 +1,9 @@
-import { create } from 'zustand';
+import { create } from "zustand";
 
 export interface Lead {
   name: string;
   email: string;
+  industry: string; // FIXED: Added missing industry field
   submitted_at: string;
 }
 
